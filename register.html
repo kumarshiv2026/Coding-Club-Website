@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Join our Coding Club and learn programming.">
+    <meta name="keywords" content="Coding Club, Programming, Students">
+    <meta name="author" content="Shiv Kumar">
+
+    <title>Coding Club - Registration</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <header>
+        <h1>💻 Coding Club</h1>
+        <p>Learn to Code, Build Your Future!</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="register.html">Register</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Student Registration Form</h2>
+        <p>Join our Coding Club and start your coding journey!</p>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"
+                   placeholder="Create password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter phone number">
+            <br><br>
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+
+            <br><br>
+
+            <p>Choose Your Interests:</p>
+            <input type="checkbox" id="html" name="interest" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" name="interest" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="js" name="interest" value="JavaScript">
+            <label for="js">JavaScript</label>
+
+            <input type="checkbox" id="java" name="interest" value="Java">
+            <label for="java">Java</label>
+
+            <br><br>
+
+            <label for="course">Select Your Course:</label><br>
+            <select id="course" name="course">
+                <option value="">-- Select Course --</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Java Programming">Java Programming</option>
+                <option value="Python Programming">Python Programming</option>
+                <option value="AI and ML">AI and ML</option>
+            </select>
+
+            <br><br>
+
+            <label for="message">Why do you want to join?</label><br>
+            <textarea id="message" name="message"
+                      rows="5" cols="35"
+                      placeholder="Write your message here..."></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit Registration</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 Coding Club. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
